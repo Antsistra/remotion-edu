@@ -1,0 +1,25 @@
+{
+  "name": "wa-watermark-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Video edukasi vertikal: watermark ganda DWT + ML-DSA-44 pada kanal WhatsApp",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render EducationalVideo out/educational-video.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.528",
+    "@remotion/google-fonts": "4.0.528",
+    "@remotion/tailwind-v4": "4.0.528",
+    "@tailwindcss/postcss": "4.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.528",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.8.2"
+  }
+}
